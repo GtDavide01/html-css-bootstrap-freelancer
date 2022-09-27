@@ -2,6 +2,12 @@
 img{
     max-width: 100%;
 }
+.box{
+    height: 200px;
+    background-color:aquamarine;
+    border: 1px solid black;
+}
+
 /* HEADER */
 header{
     width: 100%;
@@ -16,4 +22,55 @@ header{
 .menu ul a {
     color: white;
     text-decoration: none;
+}
+/* MAIN */
+/* sectionbootstraps */
+#start-bootstrap{
+    background-color: #1abc9c;
+}
+.textstart{
+    color: white;
+}
+
+/* section portfolio */
+
+#port1{
+    background-color:  #ba4b63 ;
+}
+#port2{
+    background-color:#1ea4b6 ;
+}
+#port3{
+    background-color: #140f0f ;
+}
+#port4{
+    background-color:#1c83c1 ;
+}
+#port5{
+    background-color: #0e38b5 ;
+}
+#port6{
+    background-color:#ccb2a3 ;
+}
+
+
+
+
+
+/* section about */
+#about{
+    background-color: #1abc9c;
+}
+/* section  contact */
+#contact{
+    
+}
+/* section infotmation */
+#information{
+    background-color: #3a546d;
+}
+
+footer{
+    height: 100px;
+    background-color: #2c3e50;
 }
