@@ -31,9 +31,14 @@ header{
 .textstart{
     color: white;
 }
+.imgstart img{
+    width: 300px;
+}
 
 /* section portfolio */
-
+.boxportfolio{
+    overflow: hidden;
+}
 #port1{
     background-color:  #ba4b63 ;
 }
