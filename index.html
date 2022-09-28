@@ -62,7 +62,9 @@
             <div class="col-12">
                 <div class="textstart mt-2 d-flex flex-column align-items-center">
                     <h5 class="fs-1 fw-bold mb-4">START BOOTSTRAP</h5>
-                    <p><i class="fa-solid fa-star fs-1 mb-3"></i></p>
+                    <div class="star">
+                        <span><i class="fa-solid fa-star fs-1 mb-3"></i></span>
+                    </div>
                     <p class="fs-5 fw-semibold pb-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                 </div>
             </div>
@@ -76,7 +78,7 @@
                 <div class="col-12">
                     <div class="titleportfolio d-flex flex-column align-items-center mt-5">
                         <p class="fs-2 fw-semibold">PORTFOLIO</p>
-                        <p><i class="fa-solid fa-star fs-1 pb-1"></i></p>
+                        <span><i class="fa-solid fa-star fs-1 pb-1"></i></span>
                     </div>
                 </div>
             </div>
@@ -121,7 +123,7 @@
                 <div class="col-12">
                     <div class="titleabout mt-5 d-flex flex-column align-items-center">
                         <p class="fs-2 fw-semibold text-light">ABOUT</p>
-                        <p><i class="fa-solid fa-star fs-1 pb-1 text-light"></i></p>
+                        <span><i class="fa-solid fa-star fs-1 pb-1 text-light"></i></span>
                     </div>
                 </div>
             </div>
@@ -140,7 +142,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="buttonabout mt-4 pb-4 d-flex justify-content-center">
-                        <button type="button" class=" text-light fs-4 btn" disabled><i class="fa-solid fa-download me-2"></i>Download</button>
+                        <button id="bgborder" type="button" class=" text-light fs-4 btn" active><i class="fa-solid fa-download me-2"></i>Download</button>
                     </div>
                 </div>
             </div>
@@ -153,7 +155,7 @@
                 <div class="col-12">
                     <div class="titlecontactme mt-5 d-flex flex-column align-items-center">
                         <h2>CONTACT ME</h2>
-                        <p><i class="fa-solid fa-star fs-1 mt-4 pb-1"></i></p>
+                        <span><i class="fa-solid fa-star fs-1 mt-4 pb-1"></i></span>
                     </div>
                 </div>
                 <div class="col-12">
@@ -172,13 +174,14 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="boxcontactmessage mt-2">
+                    <div class="form-group">
                         <p class="fs-3 fw-semibold ">Message</p>
-                    </div>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
                 </div>
                 <div class="col-12 mt-5">
                     <div class="contactbutton pt-3 pb-5">
-                        <button type="button" class="btn btn-success text-light fs-3">Send</button>
+                        <button id="bgbutton" type="button" class="btn btn-success text-light fs-3 active">Send</button>
                     </div>
                 </div>
             </div>
@@ -191,23 +194,23 @@
                 <div class="col gap-3">
                     <div class="textinformation mt-4 d-flex flex-column align-items-center text-light fw-semibold fs-4">
                         <p>LOCATION</p>
-                        <p>2215 John Daniel Drive Clark , MO 54243</p>
+                        <p class="text-center">2215 John Daniel Drive Clark , MO 54243</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="textinformation mt-4 d-flex flex-column align-items-center text-center text-light fw-semibold fs-4">
-                        <p>AROUND THE WEB</p>
+                        <p class="text-center">AROUND THE WEB</p>
                         <ul class="text-light d-flex text-center >">
-                            <li class="ms-2 me-2"><i class="fa-brands fa-facebook-f"></i></li>
-                            <li class="ms-2 me-2"><i class="fa-brands fa-google-plus-g"></i></li>
-                            <li class="ms-2 me-2"><i class="fa-brands fa-twitter"></i></li>
-                            <li class="ms-2 me-2"><i class="fa-brands fa-linkedin-in"></i></li>
+                            <li class="me-3"><i class="fa-brands fa-facebook-f"></i></li>
+                            <li class="ms-2 me-3"><i class="fa-brands fa-google-plus-g"></i></li>
+                            <li class="ms-2 me-3"><i class="fa-brands fa-twitter"></i></li>
+                            <li class="ms-2 me-3"><i class="fa-brands fa-linkedin-in"></i></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col">
                     <div class="textinformation mt-4 d-flex flex-column align-items-center text-light fw-semibold fs-4">
-                        <p>ABOUT FREELANCER</p>
+                        <p class="text-center">ABOUT FREELANCER</p>
                         <p class="text-center">Freelance is a free to use , open source Bootstrap theme created by <a href="">Start Bootstrap</a>.</p>
                     </div>
                 </div>
