@@ -9,7 +9,6 @@ img{
 ul{
     list-style-type: none;
 }
-
 .starwhite::before ,.starwhite::after{
     content: '';
     display: inline-block;
@@ -28,7 +27,6 @@ ul{
     background-color: black;
     margin: 0 .5rem;
 }
-
 /* HEADER */
 header{
     width: 100%;
@@ -41,7 +39,6 @@ header{
     color: white;
     text-decoration: none;
 }
-
 /* MAIN */
 /* sectionbootstraps */
 #start-bootstrap{
@@ -53,41 +50,18 @@ header{
 .imgstart img{
     width: 300px;
 }
-
 /* section portfolio */
 .boxportfolio{
     overflow: hidden;
 }
-#port1{
-    background-color:  #ba4b63 ;
-}
-#port2{
-    background-color:#1ea4b6 ;
-}
-#port3{
-    background-color: #140f0f ;
-}
-#port4{
-    background-color:#1c83c1 ;
-}
-#port5{
-    background-color: #0e38b5 ;
-}
-#port6{
-    background-color:#ccb2a3 ;
-}
-
 /* section about */
 #about{
     background-color: #1abc9c;
 }
-
 /* section  contact */
 .boxcontact{
     border-bottom: 1px solid lightgrey;
 }
- 
-
 /* section infotmation */
 #information{
     background-color: #3a546d;
@@ -121,9 +95,3 @@ footer{
 #bgborder{
     border: 1px solid white;
 }
-
-/* i.fa-star::before , i.fa-star::after{
-    width: 40px;
-    height: 2px;
-    background-color: #140f0f;
-} */
